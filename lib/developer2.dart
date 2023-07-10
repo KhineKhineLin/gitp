@@ -11,6 +11,9 @@ class _Developer2State extends State<Developer2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Developer 2'),
+      ),
       body: Center(
         child: Text('Developer 2'),
       ),
