@@ -14,8 +14,17 @@ class _Developer2State extends State<Developer2> {
       appBar: AppBar(
         title: Text('Developer 2'),
       ),
-      body: Center(
-        child: Text('Developer 2'),
+      body: Column(
+        children: [
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.amber,
+          ),
+          Center(
+            child: Text('Developer 2'),
+          ),
+        ],
       ),
     );
   }
